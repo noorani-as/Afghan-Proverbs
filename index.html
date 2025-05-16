@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Afghan Proverbs</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet" />
+  <style>
+    @font-face {
+      font-family: 'Nastaliq';
+      src: url('https://cdn.jsdelivr.net/gh/alif-type/nastaliq-webfont/fonts/woff2/AlifNastaliqWeb-Regular.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Afghan Proverbs</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#detail">Detail</a>
+    <a href="#wall">Wall</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<main id="home">
+  <section class="intro">
+    <h2>Introduction</h2>
+    <p>Afghan proverbs carry the wisdom, humor, and culture of generations. They teach patience, resilience, and kindness through simple, memorable sayings.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Proverb Gallery</h2>
+    <div class="gallery-grid">
+      <div class="proverb-card">
+        <p class="proverb-dari">صبر تلخ است اما شیرین می‌شود</p>
+        <p class="proverb-eng">Patience is bitter but it becomes sweet.</p>
+        <p class="meaning">This proverb teaches that patience is difficult at first, but rewards are worth the wait.</p>
+      </div>
+      <div class="proverb-card">
+        <p class="proverb-dari">آب که یک جا بماند، می‌گندد</p>
+        <p class="proverb-eng">Water that stays in one place becomes stagnant.</p>
+        <p class="meaning">It means that staying idle leads to problems; movement and change are vital.</p>
+      </div>
+      <div class="proverb-card">
+        <p class="proverb-dari">زبان سرخ سر سبز می‌دهد بر باد</p>
+        <p class="proverb-eng">A sharp tongue can destroy a green head.</p>
+        <p class="meaning">Be careful with harsh words, as they can ruin relationships and opportunities.</p>
+      </div>
+      <div class="proverb-card">
+        <p class="proverb-dari">با یک دست نمی‌توان دهان را پوشاند</p>
+        <p class="proverb-eng">You cannot cover your mouth with one hand.</p>
+        <p class="meaning">Secrets are hard to keep; truth will eventually come out.</p>
+      </div>
+      <div class="proverb-card">
+        <p class="proverb-dari">گر صبر کنی ز غوره حلوا سازی</p>
+        <p class="proverb-eng">If you are patient, you can make sweet from sour grapes.</p>
+        <p class="meaning">Patience can turn bad situations into good ones.</p>
+      </div>
+      <div class="proverb-card">
+        <p class="proverb-dari">دوستی بهتر از دارایی است</p>
+        <p class="proverb-eng">Friendship is better than wealth.</p>
+        <p class="meaning">True friends are more valuable than riches.</p>
+      </div>
+      <div class="proverb-card">
+        <p class="proverb-dari">کار نیکو کردن از پر کردن است</p>
+        <p class="proverb-eng">Good work comes from doing repeatedly.</p>
+        <p class="meaning">Practice makes perfect.</p>
+      </div>
+      <div class="proverb-card">
+        <p class="proverb-dari">هرکه بامش بیش برفش بیشتر</p>
+        <p class="proverb-eng">Whoever has a higher roof has more snow.</p>
+        <p class="meaning">Greater responsibilities bring more challenges.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="detail">
+    <h2>Proverb of the Day</h2>
+    <div class="detail-card">
+      <p class="proverb-dari">صبر تلخ است اما شیرین می‌شود</p>
+      <p class="proverb-eng">Patience is bitter but it becomes sweet.</p>
+      <p class="meaning-detail">
+        This proverb means that patience is not easy to practice; it feels bitter while enduring hardships,
+        but ultimately it leads to sweet outcomes and success.
+      </p>
+      <a href="#gallery" class="back-link">Back to Gallery</a>
+    </div>
+  </section>
+
+  <section id="wall">
+    <h2>Interactive Wall</h2>
+    <form id="proverbForm">
+      <label for="userName">Your Name:</label>
+      <input type="text" id="userName" name="userName" required />
+      <label for="userProverb">Your Proverb (Dari):</label>
+      <textarea id="userProverb" name="userProverb" rows="3" required></textarea>
+      <button type="submit">Submit Proverb</button>
+    </form>
+    <div id="submittedProverbs"></div>
+  </section>
+
+  <section id="about">
+    <h2>About This Project</h2>
+    <p>
+      Afghan Proverbs is a cultural project created by Noorani Asghary to preserve and share the timeless wisdom of Afghanistan.
+      These proverbs reflect generations of experience, humor, and deep thought in just a few words.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Afghan Proverbs. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
